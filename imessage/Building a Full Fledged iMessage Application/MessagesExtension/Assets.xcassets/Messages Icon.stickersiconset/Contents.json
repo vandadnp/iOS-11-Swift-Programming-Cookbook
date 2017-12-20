@@ -1,0 +1,97 @@
+{
+  "images" : [
+    {
+      "idiom" : "iphone",
+      "size" : "29x29",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "iphone",
+      "size" : "29x29",
+      "scale" : "3x"
+    },
+    {
+      "size" : "60x45",
+      "idiom" : "iphone",
+      "filename" : "Icon - 120x90.png",
+      "scale" : "2x"
+    },
+    {
+      "size" : "60x45",
+      "idiom" : "iphone",
+      "filename" : "Icon - 180x135.png",
+      "scale" : "3x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "29x29",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "29x29",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "67x50",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "67x50",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "ipad",
+      "size" : "74x55",
+      "scale" : "2x"
+    },
+    {
+      "size" : "27x20",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "platform" : "ios"
+    },
+    {
+      "size" : "27x20",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "platform" : "ios"
+    },
+    {
+      "size" : "27x20",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "platform" : "ios"
+    },
+    {
+      "size" : "32x24",
+      "idiom" : "universal",
+      "scale" : "1x",
+      "platform" : "ios"
+    },
+    {
+      "size" : "32x24",
+      "idiom" : "universal",
+      "scale" : "2x",
+      "platform" : "ios"
+    },
+    {
+      "size" : "32x24",
+      "idiom" : "universal",
+      "scale" : "3x",
+      "platform" : "ios"
+    },
+    {
+      "size" : "1024x768",
+      "idiom" : "ios-marketing",
+      "scale" : "1x",
+      "platform" : "ios"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D91FC181D46A95D00F154C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91FC171D46A95D00F154C8 /* AppDelegate.swift */; };
+		9D91FC1A1D46A95D00F154C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91FC191D46A95D00F154C8 /* ViewController.swift */; };
+		9D91FC1D1D46A95D00F154C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D91FC1B1D46A95D00F154C8 /* Main.storyboard */; };
+		9D91FC201D46A95D00F154C8 /* Appending_Rich_Information_to_Stickers.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9D91FC1E1D46A95D00F154C8 /* Appending_Rich_Information_to_Stickers.xcdatamodeld */; };
+		9D91FC221D46A95D00F154C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D91FC211D46A95D00F154C8 /* Assets.xcassets */; };
+		9D91FC251D46A95D00F154C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D91FC231D46A95D00F154C8 /* LaunchScreen.storyboard */; };
+		9D91FC301D46A95D00F154C8 /* Appending_Rich_Information_to_StickersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91FC2F1D46A95D00F154C8 /* Appending_Rich_Information_to_StickersTests.swift */; };
+		9D91FC3B1D46A95D00F154C8 /* Appending_Rich_Information_to_StickersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91FC3A1D46A95D00F154C8 /* Appending_Rich_Information_to_StickersUITests.swift */; };
+		9D91FC4F1D46A97200F154C8 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D91FC4E1D46A97200F154C8 /* Messages.framework */; };
+		9D91FC521D46A97200F154C8 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91FC511D46A97200F154C8 /* MessagesViewController.swift */; };
+		9D91FC551D46A97200F154C8 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D91FC531D46A97200F154C8 /* MainInterface.storyboard */; };
+		9D91FC571D46A97200F154C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D91FC561D46A97200F154C8 /* Assets.xcassets */; };
+		9D91FC5B1D46A97200F154C8 /* MessagesApp.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9D91FC4C1D46A97200F154C8 /* MessagesApp.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9D91FC621D46A99D00F154C8 /* ExpandedStickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91FC601D46A99D00F154C8 /* ExpandedStickersViewController.swift */; };
+		9D91FC631D46A99D00F154C8 /* StickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D91FC611D46A99D00F154C8 /* StickersViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9D91FC2C1D46A95D00F154C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D91FC0C1D46A95D00F154C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D91FC131D46A95D00F154C8;
+			remoteInfo = "Appending Rich Information to Stickers";
+		};
+		9D91FC371D46A95D00F154C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D91FC0C1D46A95D00F154C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D91FC131D46A95D00F154C8;
+			remoteInfo = "Appending Rich Information to Stickers";
+		};
+		9D91FC591D46A97200F154C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9D91FC0C1D46A95D00F154C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9D91FC4B1D46A97200F154C8;
+			remoteInfo = MessagesApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9D91FC5F1D46A97200F154C8 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9D91FC5B1D46A97200F154C8 /* MessagesApp.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9D91FC141D46A95D00F154C8 /* Appending Rich Information to Stickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Appending Rich Information to Stickers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D91FC171D46A95D00F154C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9D91FC191D46A95D00F154C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9D91FC1C1D46A95D00F154C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9D91FC1F1D46A95D00F154C8 /* Appending_Rich_Information_to_Stickers.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Appending_Rich_Information_to_Stickers.xcdatamodel; sourceTree = "<group>"; };
+		9D91FC211D46A95D00F154C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D91FC241D46A95D00F154C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9D91FC261D46A95D00F154C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D91FC2B1D46A95D00F154C8 /* Appending Rich Information to StickersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Appending Rich Information to StickersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D91FC2F1D46A95D00F154C8 /* Appending_Rich_Information_to_StickersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appending_Rich_Information_to_StickersTests.swift; sourceTree = "<group>"; };
+		9D91FC311D46A95D00F154C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D91FC361D46A95D00F154C8 /* Appending Rich Information to StickersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Appending Rich Information to StickersUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D91FC3A1D46A95D00F154C8 /* Appending_Rich_Information_to_StickersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appending_Rich_Information_to_StickersUITests.swift; sourceTree = "<group>"; };
+		9D91FC3C1D46A95D00F154C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D91FC4C1D46A97200F154C8 /* MessagesApp.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessagesApp.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D91FC4E1D46A97200F154C8 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		9D91FC511D46A97200F154C8 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		9D91FC541D46A97200F154C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		9D91FC561D46A97200F154C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9D91FC581D46A97200F154C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9D91FC601D46A99D00F154C8 /* ExpandedStickersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandedStickersViewController.swift; sourceTree = "<group>"; };
+		9D91FC611D46A99D00F154C8 /* StickersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickersViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9D91FC111D46A95D00F154C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D91FC281D46A95D00F154C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D91FC331D46A95D00F154C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D91FC491D46A97200F154C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91FC4F1D46A97200F154C8 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9D91FC0B1D46A95D00F154C8 = {
+			isa = PBXGroup;
+			children = (
+				9D91FC161D46A95D00F154C8 /* Appending Rich Information to Stickers */,
+				9D91FC2E1D46A95D00F154C8 /* Appending Rich Information to StickersTests */,
+				9D91FC391D46A95D00F154C8 /* Appending Rich Information to StickersUITests */,
+				9D91FC501D46A97200F154C8 /* MessagesApp */,
+				9D91FC4D1D46A97200F154C8 /* Frameworks */,
+				9D91FC151D46A95D00F154C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9D91FC151D46A95D00F154C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9D91FC141D46A95D00F154C8 /* Appending Rich Information to Stickers.app */,
+				9D91FC2B1D46A95D00F154C8 /* Appending Rich Information to StickersTests.xctest */,
+				9D91FC361D46A95D00F154C8 /* Appending Rich Information to StickersUITests.xctest */,
+				9D91FC4C1D46A97200F154C8 /* MessagesApp.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9D91FC161D46A95D00F154C8 /* Appending Rich Information to Stickers */ = {
+			isa = PBXGroup;
+			children = (
+				9D91FC171D46A95D00F154C8 /* AppDelegate.swift */,
+				9D91FC191D46A95D00F154C8 /* ViewController.swift */,
+				9D91FC1B1D46A95D00F154C8 /* Main.storyboard */,
+				9D91FC211D46A95D00F154C8 /* Assets.xcassets */,
+				9D91FC231D46A95D00F154C8 /* LaunchScreen.storyboard */,
+				9D91FC261D46A95D00F154C8 /* Info.plist */,
+				9D91FC1E1D46A95D00F154C8 /* Appending_Rich_Information_to_Stickers.xcdatamodeld */,
+			);
+			path = "Appending Rich Information to Stickers";
+			sourceTree = "<group>";
+		};
+		9D91FC2E1D46A95D00F154C8 /* Appending Rich Information to StickersTests */ = {
+			isa = PBXGroup;
+			children = (
+				9D91FC2F1D46A95D00F154C8 /* Appending_Rich_Information_to_StickersTests.swift */,
+				9D91FC311D46A95D00F154C8 /* Info.plist */,
+			);
+			path = "Appending Rich Information to StickersTests";
+			sourceTree = "<group>";
+		};
+		9D91FC391D46A95D00F154C8 /* Appending Rich Information to StickersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9D91FC3A1D46A95D00F154C8 /* Appending_Rich_Information_to_StickersUITests.swift */,
+				9D91FC3C1D46A95D00F154C8 /* Info.plist */,
+			);
+			path = "Appending Rich Information to StickersUITests";
+			sourceTree = "<group>";
+		};
+		9D91FC4D1D46A97200F154C8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D91FC4E1D46A97200F154C8 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9D91FC501D46A97200F154C8 /* MessagesApp */ = {
+			isa = PBXGroup;
+			children = (
+				9D91FC601D46A99D00F154C8 /* ExpandedStickersViewController.swift */,
+				9D91FC611D46A99D00F154C8 /* StickersViewController.swift */,
+				9D91FC511D46A97200F154C8 /* MessagesViewController.swift */,
+				9D91FC531D46A97200F154C8 /* MainInterface.storyboard */,
+				9D91FC561D46A97200F154C8 /* Assets.xcassets */,
+				9D91FC581D46A97200F154C8 /* Info.plist */,
+			);
+			path = MessagesApp;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9D91FC131D46A95D00F154C8 /* Appending Rich Information to Stickers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D91FC3F1D46A95D00F154C8 /* Build configuration list for PBXNativeTarget "Appending Rich Information to Stickers" */;
+			buildPhases = (
+				9D91FC101D46A95D00F154C8 /* Sources */,
+				9D91FC111D46A95D00F154C8 /* Frameworks */,
+				9D91FC121D46A95D00F154C8 /* Resources */,
+				9D91FC5F1D46A97200F154C8 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D91FC5A1D46A97200F154C8 /* PBXTargetDependency */,
+			);
+			name = "Appending Rich Information to Stickers";
+			productName = "Appending Rich Information to Stickers";
+			productReference = 9D91FC141D46A95D00F154C8 /* Appending Rich Information to Stickers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9D91FC2A1D46A95D00F154C8 /* Appending Rich Information to StickersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D91FC421D46A95D00F154C8 /* Build configuration list for PBXNativeTarget "Appending Rich Information to StickersTests" */;
+			buildPhases = (
+				9D91FC271D46A95D00F154C8 /* Sources */,
+				9D91FC281D46A95D00F154C8 /* Frameworks */,
+				9D91FC291D46A95D00F154C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D91FC2D1D46A95D00F154C8 /* PBXTargetDependency */,
+			);
+			name = "Appending Rich Information to StickersTests";
+			productName = "Appending Rich Information to StickersTests";
+			productReference = 9D91FC2B1D46A95D00F154C8 /* Appending Rich Information to StickersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9D91FC351D46A95D00F154C8 /* Appending Rich Information to StickersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D91FC451D46A95D00F154C8 /* Build configuration list for PBXNativeTarget "Appending Rich Information to StickersUITests" */;
+			buildPhases = (
+				9D91FC321D46A95D00F154C8 /* Sources */,
+				9D91FC331D46A95D00F154C8 /* Frameworks */,
+				9D91FC341D46A95D00F154C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D91FC381D46A95D00F154C8 /* PBXTargetDependency */,
+			);
+			name = "Appending Rich Information to StickersUITests";
+			productName = "Appending Rich Information to StickersUITests";
+			productReference = 9D91FC361D46A95D00F154C8 /* Appending Rich Information to StickersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9D91FC4B1D46A97200F154C8 /* MessagesApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9D91FC5C1D46A97200F154C8 /* Build configuration list for PBXNativeTarget "MessagesApp" */;
+			buildPhases = (
+				9D91FC481D46A97200F154C8 /* Sources */,
+				9D91FC491D46A97200F154C8 /* Frameworks */,
+				9D91FC4A1D46A97200F154C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessagesApp;
+			productName = MessagesApp;
+			productReference = 9D91FC4C1D46A97200F154C8 /* MessagesApp.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9D91FC0C1D46A95D00F154C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Pixolity;
+				TargetAttributes = {
+					9D91FC131D46A95D00F154C8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQUP82U35C;
+						DevelopmentTeamName = "Vandad Nahavandipoor";
+						ProvisioningStyle = Automatic;
+					};
+					9D91FC2A1D46A95D00F154C8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQUP82U35C;
+						DevelopmentTeamName = "Vandad Nahavandipoor";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D91FC131D46A95D00F154C8;
+					};
+					9D91FC351D46A95D00F154C8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQUP82U35C;
+						DevelopmentTeamName = "Vandad Nahavandipoor";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9D91FC131D46A95D00F154C8;
+					};
+					9D91FC4B1D46A97200F154C8 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQUP82U35C;
+						DevelopmentTeamName = "Vandad Nahavandipoor";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9D91FC0F1D46A95D00F154C8 /* Build configuration list for PBXProject "Appending Rich Information to Stickers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9D91FC0B1D46A95D00F154C8;
+			productRefGroup = 9D91FC151D46A95D00F154C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9D91FC131D46A95D00F154C8 /* Appending Rich Information to Stickers */,
+				9D91FC2A1D46A95D00F154C8 /* Appending Rich Information to StickersTests */,
+				9D91FC351D46A95D00F154C8 /* Appending Rich Information to StickersUITests */,
+				9D91FC4B1D46A97200F154C8 /* MessagesApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9D91FC121D46A95D00F154C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91FC251D46A95D00F154C8 /* LaunchScreen.storyboard in Resources */,
+				9D91FC221D46A95D00F154C8 /* Assets.xcassets in Resources */,
+				9D91FC1D1D46A95D00F154C8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D91FC291D46A95D00F154C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D91FC341D46A95D00F154C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D91FC4A1D46A97200F154C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91FC571D46A97200F154C8 /* Assets.xcassets in Resources */,
+				9D91FC551D46A97200F154C8 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9D91FC101D46A95D00F154C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91FC201D46A95D00F154C8 /* Appending_Rich_Information_to_Stickers.xcdatamodeld in Sources */,
+				9D91FC1A1D46A95D00F154C8 /* ViewController.swift in Sources */,
+				9D91FC181D46A95D00F154C8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D91FC271D46A95D00F154C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91FC301D46A95D00F154C8 /* Appending_Rich_Information_to_StickersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D91FC321D46A95D00F154C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91FC3B1D46A95D00F154C8 /* Appending_Rich_Information_to_StickersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D91FC481D46A97200F154C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D91FC521D46A97200F154C8 /* MessagesViewController.swift in Sources */,
+				9D91FC631D46A99D00F154C8 /* StickersViewController.swift in Sources */,
+				9D91FC621D46A99D00F154C8 /* ExpandedStickersViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9D91FC2D1D46A95D00F154C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D91FC131D46A95D00F154C8 /* Appending Rich Information to Stickers */;
+			targetProxy = 9D91FC2C1D46A95D00F154C8 /* PBXContainerItemProxy */;
+		};
+		9D91FC381D46A95D00F154C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D91FC131D46A95D00F154C8 /* Appending Rich Information to Stickers */;
+			targetProxy = 9D91FC371D46A95D00F154C8 /* PBXContainerItemProxy */;
+		};
+		9D91FC5A1D46A97200F154C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9D91FC4B1D46A97200F154C8 /* MessagesApp */;
+			targetProxy = 9D91FC591D46A97200F154C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9D91FC1B1D46A95D00F154C8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D91FC1C1D46A95D00F154C8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9D91FC231D46A95D00F154C8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D91FC241D46A95D00F154C8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9D91FC531D46A97200F154C8 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9D91FC541D46A97200F154C8 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9D91FC3D1D46A95D00F154C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9D91FC3E1D46A95D00F154C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9D91FC401D46A95D00F154C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Appending Rich Information to Stickers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Appending-Rich-Information-to-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9D91FC411D46A95D00F154C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Appending Rich Information to Stickers/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Appending-Rich-Information-to-Stickers";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9D91FC431D46A95D00F154C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Appending Rich Information to StickersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Appending-Rich-Information-to-StickersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appending Rich Information to Stickers.app/Appending Rich Information to Stickers";
+			};
+			name = Debug;
+		};
+		9D91FC441D46A95D00F154C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Appending Rich Information to StickersTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Appending-Rich-Information-to-StickersTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Appending Rich Information to Stickers.app/Appending Rich Information to Stickers";
+			};
+			name = Release;
+		};
+		9D91FC461D46A95D00F154C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Appending Rich Information to StickersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Appending-Rich-Information-to-StickersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Appending Rich Information to Stickers";
+			};
+			name = Debug;
+		};
+		9D91FC471D46A95D00F154C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Appending Rich Information to StickersUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Appending-Rich-Information-to-StickersUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Appending Rich Information to Stickers";
+			};
+			name = Release;
+		};
+		9D91FC5D1D46A97200F154C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessagesApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Appending-Rich-Information-to-Stickers.MessagesApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9D91FC5E1D46A97200F154C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessagesApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Appending-Rich-Information-to-Stickers.MessagesApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9D91FC0F1D46A95D00F154C8 /* Build configuration list for PBXProject "Appending Rich Information to Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D91FC3D1D46A95D00F154C8 /* Debug */,
+				9D91FC3E1D46A95D00F154C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D91FC3F1D46A95D00F154C8 /* Build configuration list for PBXNativeTarget "Appending Rich Information to Stickers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D91FC401D46A95D00F154C8 /* Debug */,
+				9D91FC411D46A95D00F154C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D91FC421D46A95D00F154C8 /* Build configuration list for PBXNativeTarget "Appending Rich Information to StickersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D91FC431D46A95D00F154C8 /* Debug */,
+				9D91FC441D46A95D00F154C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D91FC451D46A95D00F154C8 /* Build configuration list for PBXNativeTarget "Appending Rich Information to StickersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D91FC461D46A95D00F154C8 /* Debug */,
+				9D91FC471D46A95D00F154C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9D91FC5C1D46A97200F154C8 /* Build configuration list for PBXNativeTarget "MessagesApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D91FC5D1D46A97200F154C8 /* Debug */,
+				9D91FC5E1D46A97200F154C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9D91FC1E1D46A95D00F154C8 /* Appending_Rich_Information_to_Stickers.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9D91FC1F1D46A95D00F154C8 /* Appending_Rich_Information_to_Stickers.xcdatamodel */,
+			);
+			currentVersion = 9D91FC1F1D46A95D00F154C8 /* Appending_Rich_Information_to_Stickers.xcdatamodel */;
+			path = Appending_Rich_Information_to_Stickers.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9D91FC0C1D46A95D00F154C8 /* Project object */;
+}

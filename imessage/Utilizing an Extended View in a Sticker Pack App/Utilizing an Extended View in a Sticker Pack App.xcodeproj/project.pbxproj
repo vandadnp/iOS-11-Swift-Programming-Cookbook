@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9DEADD7D1D46645200C2FE9C /* ExpandedStickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEADD7C1D46645200C2FE9C /* ExpandedStickersViewController.swift */; };
+		9DFC34B21D46570000F2970E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC34B11D46570000F2970E /* AppDelegate.swift */; };
+		9DFC34B41D46570000F2970E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC34B31D46570000F2970E /* ViewController.swift */; };
+		9DFC34B71D46570000F2970E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC34B51D46570000F2970E /* Main.storyboard */; };
+		9DFC34BA1D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_App.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC34B81D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_App.xcdatamodeld */; };
+		9DFC34BC1D46570000F2970E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC34BB1D46570000F2970E /* Assets.xcassets */; };
+		9DFC34BF1D46570000F2970E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC34BD1D46570000F2970E /* LaunchScreen.storyboard */; };
+		9DFC34CA1D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC34C91D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_AppTests.swift */; };
+		9DFC34D51D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC34D41D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_AppUITests.swift */; };
+		9DFC34E91D46574400F2970E /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DFC34E81D46574400F2970E /* Messages.framework */; };
+		9DFC34EC1D46574400F2970E /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC34EB1D46574400F2970E /* MessagesViewController.swift */; };
+		9DFC34EF1D46574400F2970E /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC34ED1D46574400F2970E /* MainInterface.storyboard */; };
+		9DFC34F11D46574400F2970E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DFC34F01D46574400F2970E /* Assets.xcassets */; };
+		9DFC34F51D46574400F2970E /* MessageExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 9DFC34E61D46574400F2970E /* MessageExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		9DFC34FB1D46576400F2970E /* StickersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DFC34FA1D46576400F2970E /* StickersViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9DFC34C61D46570000F2970E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DFC34A61D46570000F2970E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DFC34AD1D46570000F2970E;
+			remoteInfo = "Utilizing an Extended View in a Sticker Pack App";
+		};
+		9DFC34D11D46570000F2970E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DFC34A61D46570000F2970E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DFC34AD1D46570000F2970E;
+			remoteInfo = "Utilizing an Extended View in a Sticker Pack App";
+		};
+		9DFC34F31D46574400F2970E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9DFC34A61D46570000F2970E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DFC34E51D46574400F2970E;
+			remoteInfo = MessageExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		9DFC34F91D46574400F2970E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				9DFC34F51D46574400F2970E /* MessageExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		9DEADD7C1D46645200C2FE9C /* ExpandedStickersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpandedStickersViewController.swift; sourceTree = "<group>"; };
+		9DFC34AE1D46570000F2970E /* Utilizing an Extended View in a Sticker Pack App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Utilizing an Extended View in a Sticker Pack App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFC34B11D46570000F2970E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9DFC34B31D46570000F2970E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9DFC34B61D46570000F2970E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9DFC34B91D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_App.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Utilizing_an_Extended_View_in_a_Sticker_Pack_App.xcdatamodel; sourceTree = "<group>"; };
+		9DFC34BB1D46570000F2970E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DFC34BE1D46570000F2970E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9DFC34C01D46570000F2970E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DFC34C51D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Utilizing an Extended View in a Sticker Pack AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFC34C91D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilizing_an_Extended_View_in_a_Sticker_Pack_AppTests.swift; sourceTree = "<group>"; };
+		9DFC34CB1D46570000F2970E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DFC34D01D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Utilizing an Extended View in a Sticker Pack AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFC34D41D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utilizing_an_Extended_View_in_a_Sticker_Pack_AppUITests.swift; sourceTree = "<group>"; };
+		9DFC34D61D46570000F2970E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DFC34E61D46574400F2970E /* MessageExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MessageExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DFC34E81D46574400F2970E /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		9DFC34EB1D46574400F2970E /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		9DFC34EE1D46574400F2970E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		9DFC34F01D46574400F2970E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9DFC34F21D46574400F2970E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9DFC34FA1D46576400F2970E /* StickersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StickersViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9DFC34AB1D46570000F2970E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFC34C21D46570000F2970E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFC34CD1D46570000F2970E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFC34E31D46574400F2970E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFC34E91D46574400F2970E /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9DFC34A51D46570000F2970E = {
+			isa = PBXGroup;
+			children = (
+				9DFC34B01D46570000F2970E /* Utilizing an Extended View in a Sticker Pack App */,
+				9DFC34C81D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppTests */,
+				9DFC34D31D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppUITests */,
+				9DFC34EA1D46574400F2970E /* MessageExtension */,
+				9DFC34E71D46574400F2970E /* Frameworks */,
+				9DFC34AF1D46570000F2970E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9DFC34AF1D46570000F2970E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DFC34AE1D46570000F2970E /* Utilizing an Extended View in a Sticker Pack App.app */,
+				9DFC34C51D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppTests.xctest */,
+				9DFC34D01D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppUITests.xctest */,
+				9DFC34E61D46574400F2970E /* MessageExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9DFC34B01D46570000F2970E /* Utilizing an Extended View in a Sticker Pack App */ = {
+			isa = PBXGroup;
+			children = (
+				9DFC34B11D46570000F2970E /* AppDelegate.swift */,
+				9DFC34B31D46570000F2970E /* ViewController.swift */,
+				9DFC34B51D46570000F2970E /* Main.storyboard */,
+				9DFC34BB1D46570000F2970E /* Assets.xcassets */,
+				9DFC34BD1D46570000F2970E /* LaunchScreen.storyboard */,
+				9DFC34C01D46570000F2970E /* Info.plist */,
+				9DFC34B81D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_App.xcdatamodeld */,
+			);
+			path = "Utilizing an Extended View in a Sticker Pack App";
+			sourceTree = "<group>";
+		};
+		9DFC34C81D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				9DFC34C91D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_AppTests.swift */,
+				9DFC34CB1D46570000F2970E /* Info.plist */,
+			);
+			path = "Utilizing an Extended View in a Sticker Pack AppTests";
+			sourceTree = "<group>";
+		};
+		9DFC34D31D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9DFC34D41D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_AppUITests.swift */,
+				9DFC34D61D46570000F2970E /* Info.plist */,
+			);
+			path = "Utilizing an Extended View in a Sticker Pack AppUITests";
+			sourceTree = "<group>";
+		};
+		9DFC34E71D46574400F2970E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9DFC34E81D46574400F2970E /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9DFC34EA1D46574400F2970E /* MessageExtension */ = {
+			isa = PBXGroup;
+			children = (
+				9DFC34EB1D46574400F2970E /* MessagesViewController.swift */,
+				9DFC34ED1D46574400F2970E /* MainInterface.storyboard */,
+				9DFC34F01D46574400F2970E /* Assets.xcassets */,
+				9DFC34F21D46574400F2970E /* Info.plist */,
+				9DFC34FA1D46576400F2970E /* StickersViewController.swift */,
+				9DEADD7C1D46645200C2FE9C /* ExpandedStickersViewController.swift */,
+			);
+			path = MessageExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9DFC34AD1D46570000F2970E /* Utilizing an Extended View in a Sticker Pack App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFC34D91D46570000F2970E /* Build configuration list for PBXNativeTarget "Utilizing an Extended View in a Sticker Pack App" */;
+			buildPhases = (
+				9DFC34AA1D46570000F2970E /* Sources */,
+				9DFC34AB1D46570000F2970E /* Frameworks */,
+				9DFC34AC1D46570000F2970E /* Resources */,
+				9DFC34F91D46574400F2970E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DFC34F41D46574400F2970E /* PBXTargetDependency */,
+			);
+			name = "Utilizing an Extended View in a Sticker Pack App";
+			productName = "Utilizing an Extended View in a Sticker Pack App";
+			productReference = 9DFC34AE1D46570000F2970E /* Utilizing an Extended View in a Sticker Pack App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9DFC34C41D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFC34DC1D46570000F2970E /* Build configuration list for PBXNativeTarget "Utilizing an Extended View in a Sticker Pack AppTests" */;
+			buildPhases = (
+				9DFC34C11D46570000F2970E /* Sources */,
+				9DFC34C21D46570000F2970E /* Frameworks */,
+				9DFC34C31D46570000F2970E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DFC34C71D46570000F2970E /* PBXTargetDependency */,
+			);
+			name = "Utilizing an Extended View in a Sticker Pack AppTests";
+			productName = "Utilizing an Extended View in a Sticker Pack AppTests";
+			productReference = 9DFC34C51D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9DFC34CF1D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFC34DF1D46570000F2970E /* Build configuration list for PBXNativeTarget "Utilizing an Extended View in a Sticker Pack AppUITests" */;
+			buildPhases = (
+				9DFC34CC1D46570000F2970E /* Sources */,
+				9DFC34CD1D46570000F2970E /* Frameworks */,
+				9DFC34CE1D46570000F2970E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9DFC34D21D46570000F2970E /* PBXTargetDependency */,
+			);
+			name = "Utilizing an Extended View in a Sticker Pack AppUITests";
+			productName = "Utilizing an Extended View in a Sticker Pack AppUITests";
+			productReference = 9DFC34D01D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		9DFC34E51D46574400F2970E /* MessageExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9DFC34F61D46574400F2970E /* Build configuration list for PBXNativeTarget "MessageExtension" */;
+			buildPhases = (
+				9DFC34E21D46574400F2970E /* Sources */,
+				9DFC34E31D46574400F2970E /* Frameworks */,
+				9DFC34E41D46574400F2970E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MessageExtension;
+			productName = MessageExtension;
+			productReference = 9DFC34E61D46574400F2970E /* MessageExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9DFC34A61D46570000F2970E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Pixolity;
+				TargetAttributes = {
+					9DFC34AD1D46570000F2970E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQUP82U35C;
+						DevelopmentTeamName = "Vandad Nahavandipoor";
+						ProvisioningStyle = Automatic;
+					};
+					9DFC34C41D46570000F2970E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQUP82U35C;
+						DevelopmentTeamName = "Vandad Nahavandipoor";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9DFC34AD1D46570000F2970E;
+					};
+					9DFC34CF1D46570000F2970E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQUP82U35C;
+						DevelopmentTeamName = "Vandad Nahavandipoor";
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9DFC34AD1D46570000F2970E;
+					};
+					9DFC34E51D46574400F2970E = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = YQUP82U35C;
+						DevelopmentTeamName = "Vandad Nahavandipoor";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 9DFC34A91D46570000F2970E /* Build configuration list for PBXProject "Utilizing an Extended View in a Sticker Pack App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9DFC34A51D46570000F2970E;
+			productRefGroup = 9DFC34AF1D46570000F2970E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9DFC34AD1D46570000F2970E /* Utilizing an Extended View in a Sticker Pack App */,
+				9DFC34C41D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppTests */,
+				9DFC34CF1D46570000F2970E /* Utilizing an Extended View in a Sticker Pack AppUITests */,
+				9DFC34E51D46574400F2970E /* MessageExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9DFC34AC1D46570000F2970E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFC34BF1D46570000F2970E /* LaunchScreen.storyboard in Resources */,
+				9DFC34BC1D46570000F2970E /* Assets.xcassets in Resources */,
+				9DFC34B71D46570000F2970E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFC34C31D46570000F2970E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFC34CE1D46570000F2970E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFC34E41D46574400F2970E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFC34F11D46574400F2970E /* Assets.xcassets in Resources */,
+				9DFC34EF1D46574400F2970E /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9DFC34AA1D46570000F2970E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFC34BA1D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_App.xcdatamodeld in Sources */,
+				9DFC34B41D46570000F2970E /* ViewController.swift in Sources */,
+				9DFC34B21D46570000F2970E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFC34C11D46570000F2970E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFC34CA1D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFC34CC1D46570000F2970E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DFC34D51D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9DFC34E21D46574400F2970E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DEADD7D1D46645200C2FE9C /* ExpandedStickersViewController.swift in Sources */,
+				9DFC34FB1D46576400F2970E /* StickersViewController.swift in Sources */,
+				9DFC34EC1D46574400F2970E /* MessagesViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9DFC34C71D46570000F2970E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DFC34AD1D46570000F2970E /* Utilizing an Extended View in a Sticker Pack App */;
+			targetProxy = 9DFC34C61D46570000F2970E /* PBXContainerItemProxy */;
+		};
+		9DFC34D21D46570000F2970E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DFC34AD1D46570000F2970E /* Utilizing an Extended View in a Sticker Pack App */;
+			targetProxy = 9DFC34D11D46570000F2970E /* PBXContainerItemProxy */;
+		};
+		9DFC34F41D46574400F2970E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9DFC34E51D46574400F2970E /* MessageExtension */;
+			targetProxy = 9DFC34F31D46574400F2970E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9DFC34B51D46570000F2970E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFC34B61D46570000F2970E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9DFC34BD1D46570000F2970E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFC34BE1D46570000F2970E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9DFC34ED1D46574400F2970E /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9DFC34EE1D46574400F2970E /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9DFC34D71D46570000F2970E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9DFC34D81D46570000F2970E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9DFC34DA1D46570000F2970E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Utilizing an Extended View in a Sticker Pack App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Utilizing-an-Extended-View-in-a-Sticker-Pack-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9DFC34DB1D46570000F2970E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Utilizing an Extended View in a Sticker Pack App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Utilizing-an-Extended-View-in-a-Sticker-Pack-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9DFC34DD1D46570000F2970E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Utilizing an Extended View in a Sticker Pack AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Utilizing-an-Extended-View-in-a-Sticker-Pack-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Utilizing an Extended View in a Sticker Pack App.app/Utilizing an Extended View in a Sticker Pack App";
+			};
+			name = Debug;
+		};
+		9DFC34DE1D46570000F2970E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Utilizing an Extended View in a Sticker Pack AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Utilizing-an-Extended-View-in-a-Sticker-Pack-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Utilizing an Extended View in a Sticker Pack App.app/Utilizing an Extended View in a Sticker Pack App";
+			};
+			name = Release;
+		};
+		9DFC34E01D46570000F2970E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Utilizing an Extended View in a Sticker Pack AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Utilizing-an-Extended-View-in-a-Sticker-Pack-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Utilizing an Extended View in a Sticker Pack App";
+			};
+			name = Debug;
+		};
+		9DFC34E11D46570000F2970E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Utilizing an Extended View in a Sticker Pack AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Utilizing-an-Extended-View-in-a-Sticker-Pack-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Utilizing an Extended View in a Sticker Pack App";
+			};
+			name = Release;
+		};
+		9DFC34F71D46574400F2970E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessageExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Utilizing-an-Extended-View-in-a-Sticker-Pack-App.MessageExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9DFC34F81D46574400F2970E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				INFOPLIST_FILE = MessageExtension/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "se.pixolity.Utilizing-an-Extended-View-in-a-Sticker-Pack-App.MessageExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9DFC34A91D46570000F2970E /* Build configuration list for PBXProject "Utilizing an Extended View in a Sticker Pack App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFC34D71D46570000F2970E /* Debug */,
+				9DFC34D81D46570000F2970E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFC34D91D46570000F2970E /* Build configuration list for PBXNativeTarget "Utilizing an Extended View in a Sticker Pack App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFC34DA1D46570000F2970E /* Debug */,
+				9DFC34DB1D46570000F2970E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFC34DC1D46570000F2970E /* Build configuration list for PBXNativeTarget "Utilizing an Extended View in a Sticker Pack AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFC34DD1D46570000F2970E /* Debug */,
+				9DFC34DE1D46570000F2970E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFC34DF1D46570000F2970E /* Build configuration list for PBXNativeTarget "Utilizing an Extended View in a Sticker Pack AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFC34E01D46570000F2970E /* Debug */,
+				9DFC34E11D46570000F2970E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9DFC34F61D46574400F2970E /* Build configuration list for PBXNativeTarget "MessageExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DFC34F71D46574400F2970E /* Debug */,
+				9DFC34F81D46574400F2970E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9DFC34B81D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_App.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9DFC34B91D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_App.xcdatamodel */,
+			);
+			currentVersion = 9DFC34B91D46570000F2970E /* Utilizing_an_Extended_View_in_a_Sticker_Pack_App.xcdatamodel */;
+			path = Utilizing_an_Extended_View_in_a_Sticker_Pack_App.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9DFC34A61D46570000F2970E /* Project object */;
+}
